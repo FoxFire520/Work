@@ -1,0 +1,15 @@
+public class StudentWork {
+	public static void main(String[] args) {
+		int num = 0;
+		for (int i = 1; i <= 100; i++) {
+			if (i % 7 == 0) {
+				System.out.print(i);
+				System.out.print(" ");
+				num++;
+			}
+		}
+		System.out.println("");
+		System.out.print("ModValue:");
+		System.out.println(num);
+	}
+}
